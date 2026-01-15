@@ -1,4 +1,9 @@
-void main() {
-    System.out.println("Hello World");
-    System.out.println("Hello World");
+package org.example;
+
+class Main {
+    private static final String MESSAGE = "Hello World!";
+
+    public static void main(String[] args) {
+        System.out.println(MESSAGE);
+    }
 }
